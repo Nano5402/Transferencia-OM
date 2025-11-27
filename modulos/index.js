@@ -1,0 +1,5 @@
+export { crearEstudiante } from './ejercicio1.js'
+export { fusionarCatalogos } from './ejercicio2.js'
+export { procesarCompra } from './ejercicio3.js'
+export { estadisticas } from './ejercicio4.js'
+export { configFinal } from './ejercicio5.js'
