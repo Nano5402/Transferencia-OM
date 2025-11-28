@@ -3,7 +3,7 @@ import {
   
  } from "./modulos/index.js";
 
-function mostrarMenu() {
+function ejecutarMenu() {
     let opcion;
 
     while (true) {
@@ -86,7 +86,7 @@ function ejecutarEjercicio3() {
   console.log("Informe inválido:", informe2);
 
   // Caso incorrecto: producto sin precio
-  const cliente3 = { nombre: "Nicolle", correo: "karola.tf@mail.com" };
+  const cliente3 = { nombre: "Nicolle", correo: "karola.tf@gmail.com" };
   const productos3 = [{ nombre: "Birriaramen" }];
   const informe3 = procesarCompra(cliente3, productos3);
   console.log("Informe inválido:", informe3);
@@ -121,4 +121,4 @@ function ejecutarEjercicio5() {
 }
 
 // Iniciamos el menú al cargar la página
-mostrarMenu();
+ejecutarMenu();
